@@ -23,7 +23,7 @@ function createWindow() {
   win.loadURL(`file://${__dirname}/index.html`)
   win.on('closed', () => { win = null })
 
-  down()
+  //down()
 }
 
 app.on('activate', () => { //mac: 비활성에서 활성화
